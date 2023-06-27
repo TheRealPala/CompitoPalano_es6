@@ -6,6 +6,8 @@
 #define COMPITOPALANO_ES6_SUBJECT_H
 
 
+#include "Observer.h"
+
 class Subject {
 public:
     virtual void unscribe(Observer* o) = 0;
